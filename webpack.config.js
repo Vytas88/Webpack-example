@@ -35,5 +35,11 @@ module.exports = {
       chunkFilename: "[id].css",
       ignoreOrder: false
     })
-  ]
+  ],
+  devServer: {
+    port: 9000,
+    compress: true,
+    publicPath: "/",
+    historyApiFallback: true
+  }
 };
